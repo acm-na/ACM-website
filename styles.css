@@ -1,0 +1,13 @@
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text for better readability */
+  }
+  
+  .acm-highlight {
+    color: #ff5733; /* Orange color */
+    font-weight: bold; /* Bold text */
+  }
