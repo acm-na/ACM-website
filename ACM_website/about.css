@@ -82,11 +82,13 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
     background-color: #218838;
-}
+    transform: scale(1.05);
+} 
 
 footer {
     background-color: #343a40;
